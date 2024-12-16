@@ -43,4 +43,4 @@ tags: []
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://gitlab.com/IndraniDey1/ansible-simple-collection
+repository: https://github.com/cloudapps-idey/ansible-simple-collection.git
