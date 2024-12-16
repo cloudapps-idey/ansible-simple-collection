@@ -1,3 +1,12 @@
+### REQUIRED
+# The namespace of the collection. This can be a company/brand/organization or product namespace under which all
+# content lives. May only contain alphanumeric lowercase characters and underscores. Namespaces cannot start with
+# underscores or numbers and cannot contain consecutive underscores
+namespace: samplenamespace 
+
+# The name of the collection. Has the same character restrictions as 'namespace'
+name: message_collection
+
 # The version of the collection. Must be compatible with semantic versioning
 version: 1.0.0
 
@@ -7,7 +16,7 @@ readme: README.md
 # A list of the collection's content authors. Can be just the name or in the format 'Full Name <email> (url)
 # @nicks:irc/im.site#channel'
 authors:
-- Indrani Dey
+- your name idey@redhat.com
 
 
 ### OPTIONAL but strongly recommended
@@ -34,4 +43,4 @@ tags: []
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://gitlab.com/IndraniDey1/simple-collection-example.git
+repository: https://gitlab.com/IndraniDey1/ansible-simple-collection
