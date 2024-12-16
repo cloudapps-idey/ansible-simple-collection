@@ -1,0 +1,15 @@
+---
+- name: Get package facts
+  ansible.builtin.package_facts:
+    manager: auto
+
+- name: Get service facts
+  ansible.builtin.service_facts:
+
+- name: Show packages installed
+  ansible.builtin.debug:
+    msg: "{{ ansible_facts.packages }}"
+
+- name: Show services status
+  ansible.builtin.debug:
+    msg: "{{ ansible_facts.services }}"
